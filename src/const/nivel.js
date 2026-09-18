@@ -1,6 +1,6 @@
 const nivel = () => {
     const nuevoNivel = document.createElement('div');
-    nuevoNivel.classList.add('EdificioNivel');
+    nuevoNivel.classList.add('Nivel');
 
     return nuevoNivel;
 }

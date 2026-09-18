@@ -32,21 +32,49 @@ body {
     transition: transform 0.5s ease;
 }
 
-#EdificioContainer {
+#ConstruccionContainer {
     width: 50%;
     height: 80%;
 
     background-color: aqua;
 
-    margin: auto 0 0 auto;
-
     display: flex;
     flex-direction: column-reverse;
 
     overflow: visible;
+
+    margin: auto 0 0 auto;
+
+    position: relative;
+
+    transition: transform 0.5s ease;
 }
 
-.EdificioNivel {
+#Suelo {
+    width: 100%;
+    height: 75px;
+    flex-shrink: 0;
+
+    background-color: rgb(31, 75, 25);
+    border-top: 5px solid black;
+}
+
+#Ardilla {
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+
+    align-self: center;
+
+    background-color: orange;
+
+    transition:
+        left 0.5s ease,
+        transform 0.5s ease;
+}
+
+.Nivel {
     width: 50%;
     height: 50%;
     flex-shrink: 0;
@@ -58,11 +86,18 @@ body {
     margin: 0 auto;
 }
 
-#Suelo {
-    width: 100%;
-    height: 75px;
-    flex-shrink: 0;
+.Quieto {
+    transform: translateX(0);
+}
 
-    background-color: rgb(31, 75, 25);
-    border-top: 5px solid black;
+.Moviendo {
+    transform: translateX(-50%);
+}
+
+.ArdillaSuelo {
+    left: -25%;
+}
+
+.ArdillaNivel {
+    left: 25%;
 }

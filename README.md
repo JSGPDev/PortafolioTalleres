@@ -229,37 +229,7 @@ La interfaz será diseñada específicamente para este proyecto.
 
 ## Página principal
 
-La página principal mostrará:
-
-- Nombre del proyecto.
-- Breve descripción.
-- Catálogo de infografías.
-- Tarjetas o elementos visuales para cada documento.
-
-Conceptualmente:
-
-```text
-┌─────────────────────────────────────────┐
-│       INFOGRAFÍAS UNIVERSITARIAS        │
-│                                         │
-│  Colección de trabajos académicos       │
-│                                         │
-├─────────────────────────────────────────┤
-│                                         │
-│  ┌──────────┐  ┌──────────┐             │
-│  │          │  │          │             │
-│  │  INFO 1  │  │  INFO 2  │             │
-│  │          │  │          │             │
-│  └──────────┘  └──────────┘             │
-│                                         │
-│  ┌──────────┐  ┌──────────┐             │
-│  │          │  │          │             │
-│  │  INFO 3  │  │  INFO 4  │             │
-│  │          │  │          │             │
-│  └──────────┘  └──────────┘             │
-│                                         │
-└─────────────────────────────────────────┘
-```
+se busca una interfaz amigable y didactica con animaciones que acompanene la navegacion por la imagenes, en pricipio una ardilla subiendo por un arbol topandose con afiches pegados a el, estos afiches son las imagenes, al seleccionarlas se mostrara una version mas grande al costado de la pantalla
 
 ---
 

@@ -4,10 +4,10 @@
 const cantidadNiveles = 5;
 
 const crearNiveles = () => {
-    const edificioContainer = document.getElementById('EdificioContainer');
+    const construccionContainer = document.getElementById('ConstruccionContainer');
 
     for (let i = 0; i < cantidadNiveles; i++) {
-        edificioContainer.appendChild(nivel());
+        construccionContainer.appendChild(nivel());
     }
 }
 

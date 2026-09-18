@@ -9,12 +9,14 @@
         <link rel="stylesheet" href="./src/Css/Styles.css">
     </head>
     <body>
-        <section id="Escenario" OnClick = "moverEdificio(1)">
-            <div id="EdificioContainer"></div>
+        <section id="Escenario" OnClick = "moverEscenario(3)">
+            <div id="ConstruccionContainer" class="Quieto">
+                <div id="Ardilla" class="ArdillaSuelo"></div>
+            </div>
             <div id="Suelo"></div>
         </section>
-        <script src="./src/const/nivelEdificio.js"></script>
+        <script src="./src/const/nivel.js"></script>
         <script src="./src/Js/CrearNiveles.js"></script>
-        <script src="./src/Js/moverEdificio.js"></script>
+        <script src="./src/Js/moverEscenario.js"></script>
     </body>
 </html>
