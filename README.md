@@ -132,7 +132,13 @@ La estructura puede modificarse durante el desarrollo si se encuentra una organi
 Las infografías se almacenan como archivos PDF dentro de:
 
 ```text
-/pdf
+/Infografias/Pdf
+```
+
+y como imagenes webp dentro de:
+
+```text
+/Infografias/Webp
 ```
 
 El navegador no intentará descubrir directamente los archivos disponibles en esta carpeta.
@@ -307,18 +313,18 @@ No se deberán incorporar funcionalidades que no aporten directamente al objetiv
 
 ## Fase 0 — Preparación
 
-- [ ] Crear repositorio.
-- [ ] Crear estructura inicial.
-- [ ] Configurar GitHub Pages.
-- [ ] Crear HTML base.
-- [ ] Crear CSS base.
-- [ ] Crear JavaScript base.
+- [X] Crear repositorio.
+- [X] Crear estructura inicial.
+- [X] Configurar GitHub Pages.
+- [X] Crear HTML base.
+- [X] Crear CSS base.
+- [X] Crear JavaScript base.
 
 ## Fase 1 — Catálogo
 
-- [ ] Crear `manifest.json`.
-- [ ] Cargar manifest mediante JavaScript.
-- [ ] Generar tarjetas de infografías.
+- [X] Crear `manifest.json`.
+- [X] Cargar manifest mediante JavaScript.
+- [X] Generar tarjetas de infografías.
 - [ ] Crear navegación hacia el visor.
 
 ## Fase 2 — Visualizador
@@ -452,6 +458,6 @@ Si la respuesta es negativa, deberá considerarse fuera del alcance inicial.
 
 **Versión:** 0.1 — Planificación
 
-**Estado:** 🚧 En desarrollo
+**Estado:** En desarrollo
 
 El proyecto prioriza una implementación pequeña, estática y fácil de mantener antes de considerar funcionalidades adicionales.

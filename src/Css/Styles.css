@@ -82,8 +82,19 @@ body {
     background-color: brown;
     border-top: 2px solid black;
 
+    display: flex;
+
+    align-items: center;
 
     margin: 0 auto;
+}
+
+.InfografiaWebp {
+    height: 70%;
+    width: 100%;
+
+    margin: auto;
+    object-fit: contain
 }
 
 .Quieto {
