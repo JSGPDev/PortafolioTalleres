@@ -9,14 +9,19 @@
         <link rel="stylesheet" href="./src/Css/Styles.css">
     </head>
     <body>
-        <section id="Escenario" OnClick = "moverEscenario(1)">
+        <section id="Escenario">
             <div id="ConstruccionContainer" class="Quieto">
                 <div id="Ardilla" class="ArdillaSuelo"></div>
             </div>
             <div id="Suelo"></div>
         </section>
-        <script src="./src/const/nivel.js"></script>
-        <script src="./src/Js/CrearNiveles.js"></script>
-        <script src="./src/Js/moverEscenario.js"></script>
+
+        <section id="Controles">
+            <div id="SiguienteNivel" class="Flecha"></div>
+            <input id="SeleccionNivel" type="number" value="0">
+            <div id="AnteriorNivel" class="Flecha"></div>
+        </section>
+
+        <script type="module" src="./main.js"></script>
     </body>
 </html>

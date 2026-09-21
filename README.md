@@ -325,7 +325,7 @@ No se deberán incorporar funcionalidades que no aporten directamente al objetiv
 - [X] Crear `manifest.json`.
 - [X] Cargar manifest mediante JavaScript.
 - [X] Generar tarjetas de infografías.
-- [ ] Crear navegación hacia el visor.
+- [X] Crear navegación hacia el visor.
 
 ## Fase 2 — Visualizador
 

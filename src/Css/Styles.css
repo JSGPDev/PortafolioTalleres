@@ -74,7 +74,94 @@ body {
         transform 0.5s ease;
 }
 
-.Nivel {
+#Controles {
+    width: 50px;
+    height: 50% auto;
+    min-height: 100px;
+    max-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-radius: 25px;
+}
+
+#SiguienteNivel {
+    rotate: -135deg;
+}
+
+#AnteriorNivel {
+    rotate: 45deg;
+}
+
+#SeleccionNivel {
+    width: 32px;
+    height: 30px;
+
+    margin: auto;
+
+    padding: 0 4px;
+
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+
+    background-color: rgb(255, 218, 162);
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+    outline: none;
+
+    -moz-appearance: textfield;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+#SeleccionNivel::-webkit-inner-spin-button,
+#SeleccionNivel::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#SeleccionNivel:focus {
+    background-color: white;
+    border-color: rgb(31, 75, 25);
+
+    transform: scale(1.1);
+}
+
+.Flecha {
+    width: 15px;
+    height: 15px;
+
+    margin: auto;
+
+    border: solid white;
+    border-width: 0 4px 4px 0;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+}
+
+.Flecha:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.Nivel,
+.Copa {
     width: 50%;
     height: 50%;
     flex-shrink: 0;
@@ -87,6 +174,12 @@ body {
     align-items: center;
 
     margin: 0 auto;
+}
+
+.Copa {
+    background-color: rgb(236, 79, 79);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 .InfografiaWebp {

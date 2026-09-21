@@ -22,3 +22,5 @@ const nivel = (archivo = null) => {
     }
     return nuevoNivel;
 }
+
+export default nivel;
