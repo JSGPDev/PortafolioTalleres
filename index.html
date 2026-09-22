@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./src/Css/Styles.css">
+        <link rel="stylesheet" href="./src/Css/MediaQueries.css">
     </head>
     <body>
         <section id="Escenario">
@@ -17,9 +18,15 @@
         </section>
 
         <section id="Controles">
-            <div id="SiguienteNivel" class="Flecha"></div>
+            <div id="SiguienteNivel" class="Flecha Arriba"></div>
             <input id="SeleccionNivel" type="number" value="0">
-            <div id="AnteriorNivel" class="Flecha"></div>
+            <div id="AnteriorNivel" class="Flecha Abajo"></div>
+        </section>
+        <section id="VisorInfografia" class="Oculto">
+            <a id="DescargarInfografia" class="Descargar" href="">Descargar</a>
+            <div id="InfografiaContainer">
+                
+            </<div>
         </section>
 
         <script type="module" src="./main.js"></script>

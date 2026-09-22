@@ -1,0 +1,63 @@
+/* Pantallas medianas */
+@media (max-width: 1000px) {
+    #InfografiaContainer {
+        width: 60%;
+        margin-left: 2%;
+    }
+
+    .Nivel,
+    .Copa {
+        width: 75%;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    #InfografiaContainer {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 3%;
+    }
+
+    .Nivel,
+    .Copa {
+        width: 90%;
+    }
+
+    #ConstruccionContainer {
+        width: 60%
+    }
+
+    .Moviendo {
+        transform: translateX(-30%);
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    #InfografiaContainer {
+        width: 100%;
+        margin-left: 0;
+
+        border-radius: 0;
+
+        padding: 3%;
+    }
+
+    .InfografiaWebp {
+        border-radius: 8px;
+    }
+
+    .Nivel,
+    .Copa {
+        width: 95%;
+    }
+
+    #ConstruccionContainer {
+        width: 70%
+    }
+
+    .Moviendo {
+        transform: translateX(-20%);
+    }
+}

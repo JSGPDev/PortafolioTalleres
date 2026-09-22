@@ -4,8 +4,15 @@ const anteriorNivel = document.getElementById("AnteriorNivel");
 const seleccionarNivel = document.getElementById("SeleccionNivel");
 
 const establecerNivelHash = (nivel) => {
-    window.location.hash = `infografia-${nivel}`;
+    nivel = limitarACantidad(nivel);
     seleccionarNivel.value = nivel;
+
+    if (nivel === 0) {
+        window.location.hash = "";
+        return;
+    }
+
+    window.location.hash = `infografia-${nivel}`;
 }
 
 const limitarACantidad = (numero) => {
@@ -22,9 +29,7 @@ const cambiarNivel = (factor) => {
 
     const coincidencia = window.location.hash.match(/^#infografia-(\d+)$/);
 
-    const objetivo = limitarACantidad((coincidencia ? Number(coincidencia[1]) : 0) + factor)
-
-    establecerNivelHash(objetivo);
+    establecerNivelHash((coincidencia ? Number(coincidencia[1]) : 0) + factor);
 }
 
 const escuchar = () => {
@@ -34,10 +39,9 @@ const escuchar = () => {
 
     seleccionarNivel.addEventListener('change', (e) => {
         const value = Number(seleccionarNivel.value);
-        const objetivo = limitarACantidad(value)
 
-        establecerNivelHash(objetivo);
+        establecerNivelHash(value);
     })
 }
 
-export default escuchar;
+export { escuchar, establecerNivelHash };

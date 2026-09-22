@@ -1,3 +1,4 @@
+import controlInfografia from "./ManejadorInfografias.js";
 let nivelActual = 0;
 
 const moverEscenario = (nivelObjetivo) => {
@@ -13,10 +14,15 @@ const moverEscenario = (nivelObjetivo) => {
         niveles.length - 1
     );
 
+    if (nivelObjetivo === nivelActual) return;
+
+    controlInfografia.ver(false);
+
     const alturaNivel = niveles[0].getBoundingClientRect().height;
     const desplazamiento = alturaNivel * nivelObjetivo;
 
-    const tiempoEntrada = 0.5;
+    const tiempoEntrada = nivelActual !== 0 ? 0 : 0.5;
+    const tiempoSalida = 0.5;
     const tiempoSubida = Math.abs(
         0.5 * (nivelActual - nivelObjetivo)
     );
@@ -44,16 +50,18 @@ const moverEscenario = (nivelObjetivo) => {
             construccionContainer.className = "Quieto";
 
             if (nivelObjetivo === 0) {
-                ardilla.style.transitionDuration = `${tiempoEntrada}s`;
+                ardilla.style.transitionDuration = `${tiempoSalida}s`;
 
                 ardilla.style.transform = "translateY(0)";
 
                 ardilla.classList.remove("ArdillaNivel");
                 ardilla.classList.add("ArdillaSuelo");
             }
+
             nivelActual = nivelObjetivo;
+            if (nivelActual !== 0) controlInfografia.expandirInfografia(nivelActual);
         }, tiempoSubida * 1000);
     }, tiempoEntrada * 1000);
 };
 
-export default moverEscenario;
+export { moverEscenario, nivelActual };

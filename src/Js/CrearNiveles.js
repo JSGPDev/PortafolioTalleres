@@ -1,4 +1,4 @@
-import nivel from "../const/nivel.js";
+import { nivel } from "../const/nivel.js";
 import copa from "../const/copa.js";
 
 const crearNiveles = (datos) => {
@@ -12,9 +12,8 @@ const crearNiveles = (datos) => {
 
     for (let i = 0; i < cantidad; i++) {
         const archivoImagen = datos[i].Archivo
-        console.log(archivoImagen)
         if (archivoImagen === null) archivoImagen = '../Infografias/Webp/SinContenidoDisponible.webp'
-        construccionContainer.appendChild(nivel(archivoImagen));
+        construccionContainer.appendChild(nivel(archivoImagen, i + 1));
     }
 
     construccionContainer.appendChild(copa())

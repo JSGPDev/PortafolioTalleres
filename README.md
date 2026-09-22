@@ -329,13 +329,12 @@ No se deberán incorporar funcionalidades que no aporten directamente al objetiv
 
 ## Fase 2 — Visualizador
 
-- [ ] Integrar PDF.js.
-- [ ] Cargar PDF seleccionado.
-- [ ] Renderizar primera página.
-- [ ] Implementar documentos multipágina.
-- [ ] Implementar zoom.
-- [ ] Implementar navegación.
-- [ ] Adaptar visor a dispositivos móviles.
+- [X] Integrar PDF.js.
+- [X] Cargar PDF seleccionado.
+- [X] Renderizar primera página.
+- [X] Implementar documentos multipágina.
+- [X] Implementar navegación.
+- [X] Adaptar visor a dispositivos móviles.
 
 ## Fase 3 — Automatización
 
