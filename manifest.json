@@ -1,6 +1,12 @@
 {
     "infografias": [
+        {},
         {
+            "Id": "NaN",
+            "Archivo": "prueba.webp",
+            "Titulo": "NaN-prueba",
+            "Descripcion": "prueba",
+            "Categoria": "prueba"
         }
     ]
 }
