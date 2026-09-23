@@ -7,6 +7,13 @@
             "Titulo": "NaN-prueba",
             "Descripcion": "prueba",
             "Categoria": "prueba"
+        },
+        {
+            "Id": "NaN",
+            "Archivo": "prueba2.webp",
+            "Titulo": "NaN-prueba2",
+            "Descripcion": "prueba",
+            "Categoria": "prueba"
         }
     ]
 }
