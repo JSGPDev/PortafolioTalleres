@@ -1,6 +1,6 @@
 const buscarInfografias = async () => {
     try {
-        const respuesta = await fetch('../../manifest.json');
+        const respuesta = await fetch('./manifest.json');
 
         if (!respuesta.ok) {
             throw new Error(`Error en la petición: ${respuesta.status}`);
