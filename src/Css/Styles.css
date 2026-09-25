@@ -70,6 +70,11 @@ body {
 #Ardilla {
     position: absolute;
 
+    background-image: url("../Img/Ardilla\ Sprite\ Sheet.png");
+    background-repeat: no-repeat;
+
+    background-size: 512px 64px;
+
     width: 64px;
     height: 64px;
 
@@ -383,10 +388,9 @@ body {
 }
 
 .ArdillaSuelo {
-    background-image: url("../Img/Ardilla\ Sprite\ Sheet\ 2.png");
-    background-repeat: no-repeat;
+    background-image: url("../Img/Ardilla\ Sprite\ Sheet\ 2.png") !important;
 
-    background-size: 960px 64px;
+    background-size: 960px 64px !important;
 
     animation: Idle 1.5s steps(15) infinite;
     left: -25%;
@@ -394,7 +398,6 @@ body {
 
 .MoviendoArdilla {
     background-image: url("../Img/Ardilla\ Sprite\ Sheet.png");
-    background-repeat: no-repeat;
 
     background-size: 512px 64px;
 
@@ -402,12 +405,6 @@ body {
 }
 
 .ArdillaNivel {
-    background-image: url("../Img/Ardilla\ Sprite\ Sheet.png");
-    background-repeat: no-repeat;
-
-    background-size: 512px 64px;
-
-    rotate: -90deg;
 
     left: 35%;
 }

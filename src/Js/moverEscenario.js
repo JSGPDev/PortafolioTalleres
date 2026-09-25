@@ -29,9 +29,9 @@ const moverEscenario = (nivelObjetivo) => {
 
     ardilla.style.transitionDuration = `${tiempoEntrada}s`;
 
+
     ardilla.classList.remove("ArdillaSuelo");
     ardilla.classList.add("ArdillaNivel");
-
     setTimeout(() => {
         escenario.style.transitionDuration = `${tiempoSubida}s`;
 
@@ -43,7 +43,7 @@ const moverEscenario = (nivelObjetivo) => {
         ardilla.style.transitionDuration = `${tiempoSubida}s`;
 
         ardilla.style.transform =
-            `translateX(${(-desplazamiento - alturaNivel * 0.5) * -1}px) `;
+            `translateY(${-desplazamiento - alturaNivel * 0.5}px) `;
 
         construccionContainer.className = "Moviendo";
 
@@ -55,7 +55,7 @@ const moverEscenario = (nivelObjetivo) => {
             if (nivelObjetivo === 0) {
                 ardilla.style.transitionDuration = `${tiempoSalida}s`;
 
-                ardilla.style.transform = "translateX(0)";
+                ardilla.style.transform = "translateY(0)";
 
                 ardilla.classList.remove("ArdillaNivel");
                 ardilla.classList.add("ArdillaSuelo");
