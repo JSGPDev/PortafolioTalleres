@@ -1,5 +1,5 @@
 import buscarInfografias from "./src/Js/Infografias.js";
-import crearNiveles from "./src/Js/crearNiveles.js";
+import crearNiveles from "./src/Js/CrearNiveles.js";
 import { moverEscenario } from "./src/Js/moverEscenario.js";
 import { escuchar, establecerNivelHash } from "./src/Js/controles.js";
 
