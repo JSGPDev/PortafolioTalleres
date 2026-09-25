@@ -1,3 +1,11 @@
 {
-    "infografias": []
+    "infografias": [
+        {
+            "Id": "1",
+            "Archivo": "Presentacion.webp",
+            "Titulo": "1-Presentacion",
+            "Descripcion": "Juan Sebastian Gonzalez Prieto\r\n\r\nUniversidad Pedagógica Nacional\r\nLicenciatura en Tecnología 2026-2",
+            "Categoria": "Infografia"
+        }
+    ]
 }
