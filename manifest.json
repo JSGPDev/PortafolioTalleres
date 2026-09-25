@@ -6,6 +6,13 @@
             "Titulo": "1-Presentacion",
             "Descripcion": "Juan Sebastian Gonzalez Prieto\r\n\r\nUniversidad Pedagógica Nacional\r\nLicenciatura en Tecnología 2026-2",
             "Categoria": "Infografia"
+        },
+        {
+            "Id": "2",
+            "Archivo": "Infografia-Taller-1.webp",
+            "Titulo": "2-Infografia-Taller-1",
+            "Descripcion": "El taller me permitió comprender que el reto no consiste en enfrentar la tecnología contra los docentes, sino en aprender a integrarla a la labor educativa. También me llevó a pensar en la importancia de prepararme para los cambios tecnológicos que pueden transformar la profesión docente.\r\n\r\nLicenciatura en Tecnología 2026-2",
+            "Categoria": "Infografia"
         }
     ]
 }
