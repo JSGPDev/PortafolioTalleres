@@ -38,21 +38,24 @@ const moverEscenario = (nivelObjetivo) => {
         escenario.style.transform =
             `translateY(${desplazamiento}px)`;
 
+        ardilla.classList.add("MoviendoArdilla")
+
         ardilla.style.transitionDuration = `${tiempoSubida}s`;
 
         ardilla.style.transform =
-            `translateY(${-desplazamiento - alturaNivel * 0.5}px)`;
+            `translateX(${(-desplazamiento - alturaNivel * 0.5) * -1}px) `;
 
         construccionContainer.className = "Moviendo";
 
         setTimeout(() => {
 
             construccionContainer.className = "Quieto";
+            ardilla.classList.remove("MoviendoArdilla")
 
             if (nivelObjetivo === 0) {
                 ardilla.style.transitionDuration = `${tiempoSalida}s`;
 
-                ardilla.style.transform = "translateY(0)";
+                ardilla.style.transform = "translateX(0)";
 
                 ardilla.classList.remove("ArdillaNivel");
                 ardilla.classList.add("ArdillaSuelo");

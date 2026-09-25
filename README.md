@@ -338,21 +338,21 @@ No se deberán incorporar funcionalidades que no aporten directamente al objetiv
 
 ## Fase 3 — Automatización
 
-- [ ] Crear `publish.js`.
-- [ ] Detectar archivos PDF.
-- [ ] Generar manifest.
-- [ ] Detectar cambios.
-- [ ] Automatizar commit.
-- [ ] Automatizar push.
+- [X] Crear `publish.js`.
+- [X] Detectar archivos PDF.
+- [X] Generar manifest.
+- [X] Detectar cambios.
+- [X] Automatizar commit.
+- [X] Automatizar push.
 
 ## Fase 4 — Diseño
 
-- [ ] Definir identidad visual.
-- [ ] Diseñar página principal.
-- [ ] Diseñar tarjetas.
-- [ ] Diseñar visor.
-- [ ] Adaptar responsive.
-- [ ] Añadir animaciones únicamente cuando aporten valor.
+- [X] Definir identidad visual.
+- [X] Diseñar página principal.
+- [X] Diseñar tarjetas.
+- [X] Diseñar visor.
+- [X] Adaptar responsive.
+- [X] Añadir animaciones únicamente cuando aporten valor.
 
 ## Fase 5 — Publicación
 

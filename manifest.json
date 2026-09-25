@@ -1,18 +1,3 @@
 {
-    "infografias": [
-        {
-            "Id": "1",
-            "Archivo": "prueba.webp.webp",
-            "Titulo": "1-nombreArchivoSinExtension",
-            "Descripcion": "prueba",
-            "Categoria": "prueba"
-        },
-        {
-            "Id": "2",
-            "Archivo": "prueba.webp.webp",
-            "Titulo": "2-nombreArchivoSinExtension",
-            "Descripcion": "prueba",
-            "Categoria": "prueba"
-        }
-    ]
+    "infografias": []
 }
