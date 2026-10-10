@@ -13,6 +13,13 @@
             "Titulo": "2-Infografia-Taller-1",
             "Descripcion": "El taller me permitió comprender que el reto no consiste en enfrentar la tecnología contra los docentes, sino en aprender a integrarla a la labor educativa. También me llevó a pensar en la importancia de prepararme para los cambios tecnológicos que pueden transformar la profesión docente.\r\n\r\nLicenciatura en Tecnología 2026-2",
             "Categoria": "Infografia"
+        },
+        {
+            "Id": "3",
+            "Archivo": "Infografia-Taller-2.webp",
+            "Titulo": "3-Infografia-Taller-2",
+            "Descripcion": "Después de leer el objeto, ver su evolución y escuchar las lecturas de mis compañeros encontré que estas tecnologías siempre están evolucionando, tomando lo mejor de su predecesor y mejorándolo exponencialmente. Pero siempre con la presencia de la guerra y lo bélico como primer objetivo. Parece ser que la guerra es el combustible del progreso",
+            "Categoria": "Infografia"
         }
     ]
 }
