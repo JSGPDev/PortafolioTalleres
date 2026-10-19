@@ -20,6 +20,13 @@
             "Titulo": "3-Infografia-Taller-2",
             "Descripcion": "Después de leer el objeto, ver su evolución y escuchar las lecturas de mis compañeros encontré que estas tecnologías siempre están evolucionando, tomando lo mejor de su predecesor y mejorándolo exponencialmente. Pero siempre con la presencia de la guerra y lo bélico como primer objetivo. Parece ser que la guerra es el combustible del progreso",
             "Categoria": "Infografia"
+        },
+        {
+            "Id": "4",
+            "Archivo": "Arana_Taller-5_TIC.pdf",
+            "Titulo": "Arana_Taller-5_TIC",
+            "Descripcion": "Organizador grafico de telaraña en el cual se exponen los principios pedagogicos propuestos en la lectura en cuanto a los cuatro componentes del curriculum.",
+            "Categoria": "Taller"
         }
     ]
 }
