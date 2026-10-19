@@ -27,6 +27,13 @@
             "Titulo": "Arana_Taller-5_TIC",
             "Descripcion": "Organizador grafico de telaraña en el cual se exponen los principios pedagogicos propuestos en la lectura en cuanto a los cuatro componentes del curriculum.",
             "Categoria": "Taller"
+        },
+        {
+            "Id": "5",
+            "Archivo": "MapaMental_Taller-6.pdf",
+            "Titulo": "MapaMental_Taller-6",
+            "Descripcion": "Mapa mental que consolida las notas tomadas sobre la entrevista 'Repercusiones de la tecnología en la educación: Inés Dussel'",
+            "Categoria": "Taller"
         }
     ]
 }
