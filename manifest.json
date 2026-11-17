@@ -34,6 +34,13 @@
             "Titulo": "MapaMental_Taller-6",
             "Descripcion": "Mapa mental que consolida las notas tomadas sobre la entrevista 'Repercusiones de la tecnología en la educación: Inés Dussel'",
             "Categoria": "Taller"
+        },
+        {
+            "Id": "6",
+            "Archivo": "Proyecto_Ecológica_Digital.webp",
+            "Titulo": "Proyecto_Ecológica_Digital",
+            "Descripcion": "Proyecto ecológico digital que integra conceptos de sostenibilidad y tecnología en la educación.",
+            "Categoria": "Taller"
         }
     ]
 }
